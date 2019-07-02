@@ -1,4 +1,4 @@
-package lejit.test.aop.web;
+package lejit.test.aopAnn.web;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,4 +1,4 @@
-package lejit.test.aop.service;
+package lejit.test.aopAnn.service;
 
 import java.util.List;
 

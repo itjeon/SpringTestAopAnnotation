@@ -13,7 +13,7 @@
 	
 	<!-- Enables the Spring MVC @Controller programming model -->
 	<aop:aspectj-autoproxy />
-    <beans:bean id="testAdvice" class="lejit.test.aop.advice.TestAdvice" />
+    <beans:bean id="testAdvice" class="lejit.test.aopAnn.advice.TestAdvice" />
     
     <annotation-driven />
     <context:component-scan base-package="lejit" />
@@ -28,7 +28,5 @@
 	</beans:bean>
 	
 	<context:component-scan base-package="lejit.test.aop" />
-	
-	
 	
 </beans:beans>

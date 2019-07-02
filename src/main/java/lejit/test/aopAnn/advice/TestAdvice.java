@@ -1,4 +1,4 @@
-package lejit.test.aop.advice;
+package lejit.test.aopAnn.advice;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -17,7 +17,8 @@ public class TestAdvice {
 	
 	private static final Logger logger = LoggerFactory.getLogger(TestAdvice.class);
 	
-	@Pointcut("execution(* lejit.test.aop.web.*Controller.*(..))")
+//	@Pointcut("execution(* lejit.test.aopAnn.web.*Controller.*(..))")
+	@Pointcut("execution(* lejit..*Controller.*(..))")
 	public void commonPointcut() { }
 	
 	
